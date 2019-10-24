@@ -1,8 +1,9 @@
-package practice.multiThread.tool.javap;
+package practice.multiThread.synchronizedInstruction;
 
 
 /**
- * 使用javap工具查看生产的class文件信息来分析synchronized关键字的实现细节
+ * 使用javap工具查看生产的class文件信息来分析synchronized关键字的字节码指令
+ * javap -v classfile
  *
  * @author yangfubo
  */
@@ -22,7 +23,7 @@ Classfile /D:/WorkSpace/JavaPractice/src/practice/multiThread/tool/javap/Synchro
 Last modified 2018-12-21; size 628 bytes
         MD5 checksum 99c2c524b1ee0d1e81ec144f7e65f803
         Compiled from "SynchronizedTest.java"
-public class practice.multiThread.tool.javap.SynchronizedTest
+public class SynchronizedTest
         minor version: 0
         major version: 52
         flags: ACC_PUBLIC, ACC_SUPER
@@ -55,7 +56,7 @@ public class practice.multiThread.tool.javap.SynchronizedTest
            #26 = Utf8               java/lang/Object
            #27 = Utf8               java/lang/Throwable
            {
-public practice.multiThread.tool.javap.SynchronizedTest();
+public SynchronizedTest();
         descriptor: ()V
         flags: ACC_PUBLIC
         Code:

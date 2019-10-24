@@ -1,4 +1,4 @@
-package practice.aop;
+package practice.jdkDynamicProxy;
 
 public interface MyInterface {
 
